@@ -1,0 +1,22 @@
+# IRON Data Lake .gitignore
+
+# Large data directories - exclude from repo
+htf_*
+level_1/
+out/
+models/
+_cache/
+tmp/
+logs/
+bronze/
+silver/
+artifacts/
+registry/
+predictions/
+reports/
+
+# Keep only curated samples and documentation
+!samples/
+!documentation/
+!schemas/
+!README.md
